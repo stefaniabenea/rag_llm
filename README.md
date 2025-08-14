@@ -2,6 +2,8 @@
 
 This project demonstrates a simple **Retrieval-Augmented Generation (RAG)** pipeline running entirely on CPU.
 
+[![Open in Spaces](https://img.shields.io/badge/🤗%20Open%20in%20Spaces-blue?logo=huggingface)](https://huggingface.co/spaces/stefaniabenea/rag-llm-gradio)
+
 Features:
 - Load `.txt` documents from local folder
 - Build a **FAISS vector store** with text embeddings
