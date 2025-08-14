@@ -17,12 +17,12 @@ pip install -r requirements.txt
 ## 2. Usage
 ### CLI mode
 ```
-python rag_app.py --query "What is machine learning?"
+python app.py --query "What is machine learning?"
 ```
 
 ### Gradio UI mode
 ```
-python rag_app.py --query "What is machine learning?" --gradio
+python app.py --query "What is machine learning?" --gradio
 ```
 ## 3. Options
 ```
@@ -42,7 +42,7 @@ Machine learning is a subfield of artificial intelligence focused on building sy
 
 ## 5. Example CLI run
 ```
-python rag_app.py --query "What is deep learning?"
+python app.py --query "What is deep learning?"
 ```
 Output:
 ```
