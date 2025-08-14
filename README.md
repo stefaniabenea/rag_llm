@@ -69,3 +69,7 @@ The UI allows:
 - FAISS index persists in faiss_index/
 - Embeddings are computed once unless you reindex
 
+## 8. Alternative: Minimal RetrievalQA Script
+If you prefer a shorter implementation, you can use LangChain's `RetrievalQA` class.  
+It loads the FAISS index, retrieves the context, and calls the model directly without manual prompt construction.  
+See the `rag_retrievalqa.py` file in this repo.
